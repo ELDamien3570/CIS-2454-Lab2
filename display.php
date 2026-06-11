@@ -1,7 +1,7 @@
 <?php
     $pay_rate = htmlspecialchars(filter_input(INPUT_POST, 'pay_rate'));
     $hours = htmlspecialchars(filter_input(INPUT_POST, 'hours'));
-    $estimated_tax = htmlspecialchars(filter_input(INPUT_POST, 'estiamted_tax'));
+    $estimated_tax = htmlspecialchars(filter_input(INPUT_POST, 'estimated_tax'));
 ?>
 
 <html>
